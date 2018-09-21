@@ -48,6 +48,12 @@ command with:
 
 * [find-unamanged-pods.sh](./find-unmanaged-pods.sh) - list all pods that don't have a source (owner reference)
 
+* [fake-k8s-service.sh](./fake-k8s-service.sh) - Create a fake k8s service - so it is possible to access external resources from k8s as if they were native
+
+```
+./fake-k8s-service.sh something 1337 192.168.0.1 1337
+```
+
 ## Interesting third-party tools
 
 * [kubectx](https://github.com/ahmetb/kubectx) - Allows you to switch context or namespace easily
